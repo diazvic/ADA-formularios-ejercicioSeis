@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: Arial,sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    border: 1px solid blue;
+    width: 600px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #EAECEE;
+    border-radius: 5px;
+}
+.box{
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+.box-uno{
+    /* border: 1px solid orange; */
+    width: 500px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color:#34495E;
+    font-size: 25px;
+}
+.primer-parrafo{
+    margin: 0px 30px;
+    color: #AAB7B8;
+}
+.box-dos{
+    /* border: 1px solid violet; */
+    width: 500px;
+    height: 100px;
+    
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    color: #AAB7B8;
+    text-transform: uppercase;
+    font-size: 12px;
+} 
+.texto{
+    height: 50px;
+}
+
+.box-tres{
+    /* border: 1px solid yellow; */
+    width: 500px;
+    height: 100px;
+}
+.username{
+    display: flex;
+    flex-direction: column;
+    color: #AAB7B8;
+    text-transform: uppercase;
+    font-size: 12px
+}
+
+.box-cuatro{
+    /* border: 1px solid green; */
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.chequeado{
+    margin-right: 250px;
+    color:  #AAB7B8;
+}
+
+.box-cinco{
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.segundo-parrafo{
+    color: #82E0AA;
+}
+.boton{
+    width: 500px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #82E0AA;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.box-seis{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #82E0AA;
+}
